@@ -1,0 +1,271 @@
+/* Global styles  */
+
+@import url("https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Madimi+One&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Noto+Sans+Gurmukhi:wght@100..900&family=Poppins:wght@300;400;500;600;700;800;900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  max-width: 1440px;
+  margin: 0 auto;
+  padding: 0 120px;
+}
+
+body {
+  font-family: "Lato", sans-serif;
+  background-color: #f7f7f7;
+}
+
+/* Header styles */
+
+header {
+  padding: 10px 0;
+}
+
+.header-wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header-right {
+  display: flex;
+  gap: 30px;
+}
+
+.header-right a {
+  text-decoration: none;
+  font-weight: 700;
+  color: gray;
+  transition: all 0.4s ease-in-out;
+}
+
+.header-right a:hover {
+  color: black;
+}
+
+.header-right a:active {
+  color: white;
+}
+
+.btn-1 {
+  background-color: #458ff6;
+  color: white;
+  padding: 15px 30px;
+  border: none;
+  border-radius: 100px;
+  transition: all 0.3s ease-in-out;
+}
+
+.btn-1:hover {
+  background-color: rgb(38, 94, 173);
+}
+
+.btn-1:active {
+  background-color: #458ff6;
+}
+
+.btn-2 {
+  background-color: transparent;
+  color: #458ff6;
+  display: flex;
+  margin-left: 535px;
+  padding: 15px 30px;
+  border: 2px solid #458ff6;
+  border-radius: 100px;
+  transition: all 0.3s ease-in-out;
+  cursor: pointer;
+}
+
+.btn-2:hover {
+  color: white;
+  background-color: white;
+}
+
+.btn-2:active {
+  background-color: #006aff;
+}
+
+/* Hero styles */
+
+.hero-wrapper {
+  padding: 70px 0;
+  display: flex;
+  justify-content: space-between;
+  gap: 50px;
+}
+
+.hero-left {
+  padding-top: 50px;
+}
+
+.hero-left h1 {
+  font-size: 48px;
+}
+
+.hero-left p {
+  margin: 30px 0;
+  font-size: 21px;
+  line-height: 25px;
+}
+
+/* Services styles */
+
+.services {
+  padding: 70px 0;
+}
+
+.services-title {
+  text-align: center;
+}
+
+.services-title p {
+  padding-top: 15px;
+  color: gray;
+}
+
+.services-cards {
+  gap: 30px;
+  margin-top: 70px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.services-card {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  width: 350px;
+  height: 350px;
+  border: 1px solid gray;
+  border-radius: 15px;
+  padding: 60px;
+  background-color: white;
+}
+
+.services-card img {
+  width: 100px;
+}
+
+.services-card h2 {
+  font-size: 24px;
+  margin: 20px 0;
+}
+
+.services-card p {
+  font-size: 16px;
+  color: #7d7987;
+  line-height: 23px;
+}
+
+.servicer-button {
+  margin-top: 50px;
+  text-align: center;
+}
+
+/* check section start */
+
+.check {
+  padding: 70px 0;
+}
+
+.check-title {
+  text-align: center;
+  padding-right: 250px;
+}
+
+.check-cards {
+  gap: 30px;
+  margin-top: 70px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.check-card {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  width: 400px;
+  height: 400px;
+  border-radius: 15px;
+  background-color: white;
+}
+
+.check-card h2 {
+  font-size: 24px;
+  margin: 20px 0;
+  padding-left: 10px;
+}
+
+.check-card p {
+  font-size: 16px;
+  color: #7d7987;
+  line-height: 23px;
+  padding-left: 10px;
+}
+
+.check-card h3 {
+  color: #458ff6;
+  padding-top: 10px;
+  padding-left: 10px;
+}
+
+/* footer start */
+
+footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  background-color: #67c3f3;
+  padding: 100px;
+}
+
+.footer-left {
+  padding-bottom: 50px;
+}
+
+.footer-left p {
+  margin: 10px 0;
+  font-size: 15px;
+  line-height: 20px;
+  color: white;
+}
+
+.orta1 {
+  padding-bottom: 60px;
+  color: white;
+}
+
+.orta1 a {
+  text-decoration: none;
+  margin: 10px;
+  margin-top: 10px;
+  display: flex;
+  flex-wrap: wrap;
+  color: rgba(255, 255, 255, 0.948);
+}
+
+.orta2 {
+  padding-bottom: 60px;
+  color: white;
+}
+
+.orta2 a {
+  text-decoration: none;
+  margin: 10px;
+  margin-top: 10px;
+  display: flex;
+  flex-wrap: wrap;
+  color: rgba(255, 255, 255, 0.948);
+}
+
+.footer-right {
+  padding-bottom: 50px;
+}

@@ -1,0 +1,253 @@
+/* Global styles */
+
+@import url("https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Madimi+One&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Noto+Sans+Gurmukhi:wght@100..900&family=Poppins:wght@300;400;500;600;700;800;900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  max-width: 1440px;
+  margin: 0 auto;
+  padding: 0 120px;
+}
+
+body {
+  font-family: sans-serif;
+  background-color: #fff;
+}
+
+/* header styles */
+
+.header {
+  padding: 0 10px;
+}
+
+.header-wrapper {
+  display: flex;
+  margin-top: 23px;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header-wrapper a {
+  margin-top: 8px;
+}
+
+.header-orta {
+  display: flex;
+  gap: 70px;
+}
+
+.header-right {
+  display: flex;
+  gap: 90px;
+}
+
+.header-orta a {
+  text-decoration: none;
+  font-weight: 600;
+  font-size: 13px;
+  color: #222;
+  transition: all 0.4s ease-in-out;
+}
+
+.header-orta a:hover {
+  color: red;
+}
+
+.header-orta a:active {
+  color: rgb(110, 18, 18);
+}
+
+.btn1 {
+  margin-top: 10px;
+  color: red;
+  padding: 8px 13px;
+  border-radius: 5px;
+  background-color: #fff;
+  border: 2px solid red;
+  transition: all 0.3s ease-in-out;
+}
+
+.btn1:hover {
+  color: rgb(110, 18, 18);
+}
+.btn1:active {
+  color: rgb(255, 109, 109);
+  background-color: rgb(255, 109, 109);
+}
+
+/* hero styles */
+
+.hero-wrapper {
+  padding: 70px 0;
+  display: flex;
+  justify-content: space-between;
+  gap: 50px;
+}
+
+.hero-left {
+  padding-top: 50px;
+  padding-left: 30px;
+}
+
+.hero-left h1 {
+  font-size: 30px;
+  color: white;
+}
+
+.btn2 {
+  margin-top: 35px;
+  color: white;
+  padding: 8px 13px;
+  border-radius: 5px;
+  background-color: #de2e54cc;
+  border: 2px solid red;
+  transition: all 0.3s ease-in-out;
+}
+
+.btn2:hover {
+  color: rgb(110, 18, 18);
+}
+
+.btn2:active {
+  color: rgb(255, 109, 109);
+  background-color: rgb(255, 109, 109);
+}
+
+.hero {
+  background-image: url(./img/image\ 4.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.hero-wrapper {
+  display: flex;
+  justify-content: space-between;
+}
+
+.hero-right {
+  margin-bottom: -70px;
+}
+
+/* xizmat section start */
+
+.xizmat {
+  padding: 70px 0;
+}
+
+.xizmat-title {
+  text-align: center;
+}
+
+.xizmatlar-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 60px;
+}
+
+.reverse {
+  flex-direction: row-reverse;
+}
+
+/* center rasm start */
+
+.center-img1 {
+  position: relative;
+  top: 150px;
+}
+
+.center-img {
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+}
+
+/* form start */
+
+.form {
+  background-color: aqua;
+  padding-bottom: 50px;
+}
+
+.form-wrapper {
+  padding-top: 220px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 50px;
+}
+
+.form-left {
+  width: 50%;
+}
+
+iframe {
+  border-radius: 20px;
+}
+
+.form-right {
+  border-radius: 20px;
+  padding: 30px;
+  background-color: white;
+  width: 50%;
+  height: 331px;
+}
+
+.form-right form {
+  display: flex;
+  justify-content: center;
+  gap: 1px;
+  flex-direction: column;
+}
+
+input {
+  width: 100%;
+  padding: 10px 15px;
+  border-radius: 5px;
+}
+
+.btn {
+  background-color: #0eb;
+  color: white;
+}
+
+/* footer start */
+
+footer {
+  padding: 0 10px;
+  display: flex;
+  background-color: black;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.footer-left {
+  padding-left: 50px;
+}
+
+.footer-right {
+  display: flex;
+  gap: 50px;
+  padding-right: 50px;
+}
+
+.footer-right a {
+  text-decoration: none;
+  color: white;
+  font-size: 12px;
+  transition: all 0.3s ease-in-out;
+}
+
+.footer-right a:hover {
+  color: red;
+  font-size: 14px;
+}
+
+.footer-right a:active {
+  color: rgb(110, 18, 18);
+}
