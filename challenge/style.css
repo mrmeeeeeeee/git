@@ -1,0 +1,166 @@
+/* Global styles  */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  max-width: 1440px;
+  margin: 0 auto;
+  padding: 0 100px;
+}
+
+/* Header styles  */
+
+header {
+  position: fixed;
+  width: 100%;
+}
+.header-wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 9px;
+}
+
+.header-left {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+}
+
+.header-left button {
+  border-radius: 13px;
+  padding: 12px;
+  background-color: #009ff5b5;
+}
+
+.header-left a {
+  text-decoration: none;
+  color: white;
+}
+
+.header-right button {
+  background-color: transparent;
+  border: none;
+  color: white;
+}
+
+/* Hero styles  */
+
+/* hero section start  */
+.hero-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.hero {
+  background-image: url(./img/bg.png);
+  background-size: cover;
+  height: 900px;
+  background-repeat: no-repeat;
+  width: 100%;
+}
+/* hero section finish  */
+
+.hero-wrapper {
+  padding-top: 200px;
+}
+
+.hero-wrapper button {
+  border-radius: 34px;
+  border: 5px solid #5a5555;
+  padding: 13px;
+  background-color: orange;
+}
+
+.card1,
+card2,
+card3 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 50px;
+  gap: 10px;
+}
+
+.h {
+  color: black;
+  text-shadow: 0px 7px orange;
+  background-color: rgb(167, 165, 165);
+  padding: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Information styles  */
+
+.information {
+  padding: 80px 0;
+  background-color: black;
+}
+
+.container h1 {
+  color: gray;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: -40px;
+  font-size: 40px;
+}
+
+.information-parent {
+  margin-top: 50px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.right p {
+  color: white;
+}
+
+.reverse {
+  flex-direction: row-reverse;
+}
+
+.btn-1 {
+  margin-top: 20px;
+  padding: 10px;
+  color: white;
+  background-color: gray;
+  border: none;
+}
+
+.btn-2 {
+  margin-top: 20px;
+  padding: 10px;
+  color: black;
+  background-color: yellow;
+  border: none;
+}
+
+.left img {
+  width: 450px;
+}
+
+/* footer start  */
+
+footer {
+  background-color: yellow;
+  padding: 20px;
+}
+.footer-parent {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.right-foot {
+  display: flex;
+  gap: 5px;
+}
