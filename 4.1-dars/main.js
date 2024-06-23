@@ -1,0 +1,11 @@
+let ism = prompt("Ismingizni Kiriting");
+let familiya = prompt("Familyangizni kiriting");
+let yosh = prompt("Yoshingizni kiriting");
+let tuman = prompt("Yahaydigan Tumaningizni kiriting");
+let fan = prompt("Yoqtirgan faningizni Kiriting");
+alert("Ma'lumotlarni kiritganingiz uchun raxmat!!");
+console.log("Ism:" + " " + ism);
+console.log("Familiya:" + " " + familiya);
+console.log("Yosh:" + " " + yosh);
+console.log("Tuman:" + " " + tuman);
+console.log("Fan:" + " " + fan);
